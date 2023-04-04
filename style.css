@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cd84f1;
+}
+nav{
+    display: flex;
+}
+nav .logo {
+    padding: 5px;
+}
+nav .logo img{
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 90px;    
+}
+nav .manu{
+    width: 50%;    
+}
+nav .manu ul{
+    list-style: none;
+    margin-left: 217px;
+}
+nav .manu ul li {
+    display: inline;
+    margin: 10px;
+}
+nav .manu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.hader-text{
+    text-align: center;
+    padding: 70px 0;
+    border: 3px solid black;
+}
+.hader-text h1{
+    text-transform: capitalize;
+    font-size: 40px;
+
+}
+.hader-text p{
+    width: 60%;
+    margin: auto;
+    padding-top: 5px;
+    text-align: justify;
+}
+.hader-text a{
+    background-color: chartreuse;
+    padding: 20px;
+}
