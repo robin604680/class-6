@@ -1,51 +1,48 @@
 body{
     margin: 0;
-    padding: 0;
-    background-color: #cd84f1;
+    max-width: 1400px;
+    background-color: aqua;
 }
-nav{
-    display: flex;
+.logo{
+    display: inline-block;
+    font-size: 50px;
+    
 }
-nav .logo {
-    padding: 5px;
-}
-nav .logo img{
-    width: 80px;
-    border-radius: 50%;
-    margin-left: 90px;    
-}
-nav .manu{
-    width: 50%;    
-}
-nav .manu ul{
-    list-style: none;
-    margin-left: 217px;
-}
-nav .manu ul li {
-    display: inline;
-    margin: 10px;
-}
-nav .manu ul li a{
+.logo a{
     text-decoration: none;
-    font-size: 17px;
 }
-.hader-text{
+.main-manu{
+    float: right;
+    margin-right: 20px;
+}
+.main-manu ul li{
+     display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+.main-manu ul li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.container{
+    margin-top: 20px;
+    height: 250px;
+    
+}
+.container h2{
     text-align: center;
-    padding: 70px 0;
-    border: 3px solid black;
-}
-.hader-text h1{
-    text-transform: capitalize;
     font-size: 40px;
-
+    margin-top: 10px;
+    padding-top: 20px;
 }
-.hader-text p{
-    width: 60%;
-    margin: auto;
-    padding-top: 5px;
-    text-align: justify;
+.container p{
+    text-align: center;
 }
-.hader-text a{
-    background-color: chartreuse;
-    padding: 20px;
+.container button{
+    margin-left: 650px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container button a{
+    text-decoration: none;
 }
