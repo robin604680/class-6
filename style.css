@@ -4,6 +4,7 @@ body{
     background-color: aqua;
 }
 .logo{
+    margin: 10px;
     display: inline-block;
     font-size: 50px;
     
@@ -16,7 +17,7 @@ body{
     margin-right: 20px;
 }
 .main-manu ul li{
-     display: inline-block;
+    display: inline-block;
     list-style: none;
     margin: 0 15px;
 }
@@ -45,4 +46,41 @@ body{
 }
 .container button a{
     text-decoration: none;
+}
+#box-part{
+    height: 300px;
+    width: 100%;
+    background-color: blueviolet;
+}
+.box-1{
+    width: 50%;
+    height: 300px;
+    background-color: coral;
+    float:left;
+    display: inline-block;
+
+}
+.box-2{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(212, 35, 44);
+    overflow: hidden;
+    float: left;
+    
+}
+.box-1 img{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+.box-1 p{
+    margin-left: 5px;
+}
+.box-2 img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.box-2 p{
+    margin-left: 10gitpx;
 }
